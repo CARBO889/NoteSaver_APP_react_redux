@@ -1,22 +1,12 @@
-# NoteSaver_APP_react_redux
-NoteSaver is a React-based application designed for saving and managing notes efficiently. It allows users to create, view, edit, copy, and share notes seamlessly. Built with Redux Toolkit for state management and styled using Tailwind CSS, the app ensures a smooth and responsive user experience.
-# NoteSaver App
+# React + Vite
 
-NoteSaver is a sleek and intuitive note-saving application built using React, Tailwind CSS, and Redux Toolkit. The app allows users to:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-- Add, view, edit, and delete notes
-- Copy note content easily
-- Share notes with unique links
-- Persist data using Redux Toolkit for global state management
+Currently, two official plugins are available:
 
-## 🚀 Tech Stack
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- **React**
-- **Redux Toolkit**
-- **Tailwind CSS**
+## Expanding the ESLint configuration
 
-## 📦 Getting Started
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/notesaver-app.git
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
